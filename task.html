@@ -1,0 +1,144 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Task manager</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./task.css" />
+
+</head>
+
+<body>
+    <div id="main">
+        <div id="sidebar">
+            <div>
+                <div class="menuitems"><i class="fas fa-inbox"></i>Inbox </div>
+                <div class="menuitems"><i class="far fa-star"></i>Today</div>
+                <div class="menuitems"><i class="fas fa-calendar"></i>Upcoming</div>
+                <div class="menuitems"> <i class="fas fa-calendar"></i>Anytime</div>
+                <div class="menuitems"><i class="fas fa-clipboard"></i>Someday</div>
+                <div class="menuitems"><i class="far fa-trash-alt"></i>Trash</div>
+            </div>
+
+            <div class="filtersec">
+                <div class="filteritem activefilter"><i class="far fa-square"></i>Family</div>
+                <div class="filteritem"><i class="far fa-square"></i>Vacation Planning</div>
+                <div class="filteritem"><i class="far fa-square"></i>Buy a new car</div>
+                <div class="filteritem"><i class="far fa-square"></i>Festival ideas</div>
+            </div>
+            <div class="filtersec">
+                <div class="filteritem activefiltersec"><i class="far fa-square"></i>Work</div>
+                <div class="filteritem"><i class="far fa-square"></i>Onboarding Plan</div>
+                <div class="filteritem"><i class="far fa-square"></i>Invoice Review</div>
+                <div class="filteritem"><i class="far fa-square"></i>Presentation Work</div>
+            </div>
+            <button id="btn-add"><i class="fas fa-plus"></i></button>
+        </div>
+        <div id="tdaytask">
+            <div>
+                <h1>Today's Tasks</h1>
+                <div id="task-wrap">
+                    <div class="task-tab">
+                        <span class="tab-badge">10</span>All</div>
+                    <div class="task-tab active">Important</div>
+                    <div class="task-tab">
+                        <span class="tab-badge">05</span>Notes</div>
+                    <div class="task-tab">Links</div>
+                </div>
+                <div id="todo-lists">
+                    <div class="todo-item">
+                        <div>
+                            <i class="fas fa-check"></i>
+                            <p class="todo-msg">Create Userflow Social Appkication Design</p>
+                        </div>
+                        <button class="todo-label approved">Approved</button>
+                    </div>
+                    <div class="todo-item">
+                        <div>
+                            <i class="fas fa-check"></i>
+                            <p class="todo-msg">Create Userflow Social Appkication Design</p>
+                        </div>
+                        <button class="todo-label inprogress">In Progress</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="meeting">
+            <div id="user">
+                <i class="far fa-user"></i>
+                <div id="notify">5</div>
+            </div>
+
+            <h2>Meeting Schedule</h2>
+            <div class="meetingcard">
+                <p class="meeting-timing">8:05 AM - 9:20 AM</p>
+                <h3 class="meeting-title">Meetings Nozmul Massan</h3>
+                <img class="useravtar" src="https://randomuser.me/api/portraits/women/49.jpg" alt="ui avtar" />
+                <img class="useravtar" src="https://uifaces.co/our-content/donated/Te-0H20q.png" alt="ui avtar" />
+                <img class="useravtar" src="https://images.unsplash.com/photo-1470506028280-a011fb34b6f7?ixlib=rb-0.3.5&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&s=429f6ca8c2584cb066893a0e0818effb" alt="ui avtar" />
+                <img class="useravtar" src="https://images.pexels.com/photos/355164/pexels-photo-355164.jpeg?crop=faces&fit=crop&h=200&w=200&auto=compress&cs=tinysrgb" alt=" ui avtar " />
+            </div>
+            <div class="meetingcard">
+                <p class="meeting-timing">8:05 AM - 9:20 AM</p>
+                <h3 class="meeting-title">Meetings Nozmul Massan</h3>
+                <img class="useravtar" src="https://randomuser.me/api/portraits/women/49.jpg" alt="ui avtar" />
+                <img class="useravtar" src="https://uifaces.co/our-content/donated/Te-0H20q.png" alt="ui avtar" />
+                <img class="useravtar" src="https://images.unsplash.com/photo-1470506028280-a011fb34b6f7?ixlib=rb-0.3.5&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&s=429f6ca8c2584cb066893a0e0818effb" alt="ui avtar" />
+                <img class="useravtar" src="https://images.pexels.com/photos/355164/pexels-photo-355164.jpeg?crop=faces&fit=crop&h=200&w=200&auto=compress&cs=tinysrgb" alt=" ui avtar " />
+            </div>
+            <div class="meetingcard">
+                <p class="meeting-timing">8:05 AM - 9:20 AM</p>
+                <h3 class="meeting-title">Meetings Nozmul Massan</h3>
+                <img class="useravtar" src="https://randomuser.me/api/portraits/women/49.jpg" alt="ui avtar" />
+                <img class="useravtar" src="https://uifaces.co/our-content/donated/Te-0H20q.png" alt="ui avtar" />
+                <img class="useravtar" src="https://images.unsplash.com/photo-1470506028280-a011fb34b6f7?ixlib=rb-0.3.5&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&s=429f6ca8c2584cb066893a0e0818effb" alt="ui avtar" />
+                <img class="useravtar" src="https://images.pexels.com/photos/355164/pexels-photo-355164.jpeg?crop=faces&fit=crop&h=200&w=200&auto=compress&cs=tinysrgb" alt=" ui avtar " />
+            </div>
+            <div class="meetingcard">
+                <p class="meeting-timing">8:05 AM - 9:20 AM</p>
+                <h3 class="meeting-title">Meetings Nozmul Massan</h3>
+                <img class="useravtar" src="https://randomuser.me/api/portraits/women/49.jpg" alt="ui avtar" />
+                <img class="useravtar" src="https://uifaces.co/our-content/donated/Te-0H20q.png" alt="ui avtar" />
+                <img class="useravtar" src="https://images.unsplash.com/photo-1470506028280-a011fb34b6f7?ixlib=rb-0.3.5&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&s=429f6ca8c2584cb066893a0e0818effb" alt="ui avtar" />
+                <img class="useravtar" src="https://images.pexels.com/photos/355164/pexels-photo-355164.jpeg?crop=faces&fit=crop&h=200&w=200&auto=compress&cs=tinysrgb" alt=" ui avtar " />
+            </div>
+            <div class="meetingcard">
+                <p class="meeting-timing">8:05 AM - 9:20 AM</p>
+                <h3 class="meeting-title">Meetings Nozmul Massan</h3>
+                <img class="useravtar" src="https://randomuser.me/api/portraits/women/49.jpg" alt="ui avtar" />
+                <img class="useravtar" src="https://uifaces.co/our-content/donated/Te-0H20q.png" alt="ui avtar" />
+                <img class="useravtar" src="https://images.unsplash.com/photo-1470506028280-a011fb34b6f7?ixlib=rb-0.3.5&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&s=429f6ca8c2584cb066893a0e0818effb" alt="ui avtar" />
+                <img class="useravtar" src="https://images.pexels.com/photos/355164/pexels-photo-355164.jpeg?crop=faces&fit=crop&h=200&w=200&auto=compress&cs=tinysrgb" alt=" ui avtar " />
+            </div>
+            <div class="meetingcard">
+                <p class="meeting-timing">8:05 AM - 9:20 AM</p>
+                <h3 class="meeting-title">Meetings Nozmul Massan</h3>
+                <img class="useravtar" src="https://randomuser.me/api/portraits/women/49.jpg" alt="ui avtar" />
+                <img class="useravtar" src="https://uifaces.co/our-content/donated/Te-0H20q.png" alt="ui avtar" />
+                <img class="useravtar" src="https://images.unsplash.com/photo-1470506028280-a011fb34b6f7?ixlib=rb-0.3.5&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&s=429f6ca8c2584cb066893a0e0818effb" alt="ui avtar" />
+                <img class="useravtar" src="https://images.pexels.com/photos/355164/pexels-photo-355164.jpeg?crop=faces&fit=crop&h=200&w=200&auto=compress&cs=tinysrgb" alt=" ui avtar " />
+            </div>
+            <div class="meetingcard">
+                <p class="meeting-timing">8:05 AM - 9:20 AM</p>
+                <h3 class="meeting-title">Meetings Nozmul Massan</h3>
+                <img class="useravtar" src="https://randomuser.me/api/portraits/women/49.jpg" alt="ui avtar" />
+                <img class="useravtar" src="https://uifaces.co/our-content/donated/Te-0H20q.png" alt="ui avtar" />
+                <img class="useravtar" src="https://images.unsplash.com/photo-1470506028280-a011fb34b6f7?ixlib=rb-0.3.5&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&s=429f6ca8c2584cb066893a0e0818effb" alt="ui avtar" />
+                <img class="useravtar" src="https://images.pexels.com/photos/355164/pexels-photo-355164.jpeg?crop=faces&fit=crop&h=200&w=200&auto=compress&cs=tinysrgb" alt=" ui avtar " />
+            </div>
+            <div class="meetingcard">
+                <p class="meeting-timing">8:05 AM - 9:20 AM</p>
+                <h3 class="meeting-title">Meetings Nozmul Massan</h3>
+                <img class="useravtar" src="https://randomuser.me/api/portraits/women/49.jpg" alt="ui avtar" />
+                <img class="useravtar" src="https://uifaces.co/our-content/donated/Te-0H20q.png" alt="ui avtar" />
+                <img class="useravtar" src="https://images.unsplash.com/photo-1470506028280-a011fb34b6f7?ixlib=rb-0.3.5&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&s=429f6ca8c2584cb066893a0e0818effb" alt="ui avtar" />
+                <img class="useravtar" src="https://images.pexels.com/photos/355164/pexels-photo-355164.jpeg?crop=faces&fit=crop&h=200&w=200&auto=compress&cs=tinysrgb" alt=" ui avtar " />
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
